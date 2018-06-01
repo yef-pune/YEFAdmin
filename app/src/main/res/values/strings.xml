@@ -1,3 +1,72 @@
 <resources>
     <string name="app_name">YEF Admin</string>
+
+
+    <string name="enterEmail">Enter registered email</string>
+    <string name="enterPassword" translatable="true">Enter password</string>
+    <string name="placeholder" translatable="false">PLACEHOLDER</string>
+    <string name="dummyText" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+    //Navigation Bar Menu Labels
+    <string name="home" translatable="true">Home</string>
+    <string name="careerGuidance" translatable="true">Career Guidance</string>
+    <string name="jobUpdates" translatable="true">Job Updates</string>
+    <string name="scholarships" translatable="true">Scholarships</string>
+    <string name="helplineNumber" translatable="true">Helpline</string>
+    <string name="softSkillDevelopment" translatable="true">Soft Skills Development</string>
+    <string name="Counselling" translatable="true">Counselling</string>
+    <string name="BloodDonation" translatable="true">Blood Donation</string>
+    <string name="talkToUs" translatable="true">Talk to Us</string>
+    <string name="aboutApp" translatable="true">About the app</string>
+    <string name="signOut" translatable="true">Sign Out</string>
+    <string name="signIn" translatable="true">Sign In</string>
+    <string name="email" translatable="true">Email</string>
+    <string name="password" translatable="true">Password</string>
+    <string name="apply" translatable="true">Apply</string>
+    <string name="signUp" translatable="true">Sign Up</string>
+    <string name="resend_verification_link" translatable="true">Resend Verification link</string>
+    <string name="forgotPassword" translatable="true">Forgot Password</string>
+    <string name="shortPassword" translatable="true">Password must contain at least 6 characters</string>
+    <string name="invalidEmail" translatable="true">Invalid email</string>
+    <string name="emptyForm" translatable="true">Please fill all the details</string>
+    <string name="dialogResendEmail" translatable="true">Email Address Not Verified</string>
+    <string name="dialogMsgResendEmail" translatable="true">Please verify email address. If you didn\'t received verification email please select resend verification link.</string>
+    <string name="fullName" translatable="true">Full Name</string>
+    <string name="contactNumber" translatable="true">Contact Number</string>
+    <string name="state" translatable="true">State</string>
+    <string name="city" translatable="true">City</string>
+    <string name="confirmPassword" translatable="true">Confirm Password</string>
+    <string name="invalidContactNumber" translatable="true">Invalid Contact Number</string>
+    <string name="passwordNotMatched" translatable="true">Passwords don\'t match</string>
+    <string name="registering" translatable="true">Registering…</string>
+    <string name="somethingWrong" translatable="true">Something went wrong</string>
+
+    //DrawerLayout
+    <string name="openString" translatable="false">Open</string>
+    <string name="closeString" translatable="false">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fillDetails">Fill in the below details</string>
+
+    //Spinner gender array
+    <string-array name="bloodGroups">
+        <item>A negative</item>
+        <item>A positive</item>
+        <item>B negative</item>
+        <item>B positive</item>
+        <item>AB negative</item>
+        <item>AB positive</item>
+        <item>O negative</item>
+        <item>O positive</item>
+        <item>Not Known</item>
+    </string-array>
+
+    //Spinner gender array
+    <string-array name="sex">
+        <item>Female</item>
+        <item>Male</item>
+        <item>Other</item>
+    </string-array>
+
 </resources>

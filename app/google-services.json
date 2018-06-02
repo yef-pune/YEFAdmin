@@ -1,39 +1,63 @@
 {
   "project_info": {
-    "project_number": "271411522443",
-    "firebase_url": "https://yefadmin.firebaseio.com",
-    "project_id": "yefadmin",
-    "storage_bucket": "yefadmin.appspot.com"
+    "project_number": "983812905342",
+    "firebase_url": "https://yef-pune.firebaseio.com",
+    "project_id": "yef-pune",
+    "storage_bucket": "yef-pune.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:271411522443:android:ccb6a74f59eed0bf",
+        "mobilesdk_app_id": "1:983812905342:android:10f25d621c7cb7b2",
         "android_client_info": {
-          "package_name": "in.yefindia.yefadmin"
+          "package_name": "in.yefindia.yef"
         }
       },
       "oauth_client": [
         {
-          "client_id": "271411522443-tm7rk3nn7rg84acs13h12g8ti3b9cmut.apps.googleusercontent.com",
+          "client_id": "983812905342-vc0r2tnljpft5c80f5mfr2np6mfuhvn4.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "in.yefindia.yefadmin",
+            "package_name": "in.yefindia.yef",
             "certificate_hash": "23659ef89a3a88b10b915bd2015192281c2f7815"
           }
         },
         {
-          "client_id": "271411522443-rai6g33st6mvqlljjkcgkkp02c0pgf5i.apps.googleusercontent.com",
+          "client_id": "983812905342-k5ugamm9k32k9fr5uneqpr3hkfn4apo8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.yefindia.yef",
+            "certificate_hash": "2682d6c21d13431bdf61d6977a2bbd896e476c29"
+          }
+        },
+        {
+          "client_id": "983812905342-sghm7kmkqh7l9g1vk86j8b5mvkeil06a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.yefindia.yef",
+            "certificate_hash": "5cba957385091b76a61f41160cc0bca583747141"
+          }
+        },
+        {
+          "client_id": "983812905342-f6k8ma03iv724u2a616k1hlq15gblagb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.yefindia.yef",
+            "certificate_hash": "8a040b3b950d0f85315e552cebcb271cc694b1bf"
+          }
+        },
+        {
+          "client_id": "983812905342-4nd1k6k0t23t9ts93ilkvuom7hm5qb5c.apps.googleusercontent.com",
           "client_type": 3
         },
         {
-          "client_id": "271411522443-rai6g33st6mvqlljjkcgkkp02c0pgf5i.apps.googleusercontent.com",
+          "client_id": "983812905342-4nd1k6k0t23t9ts93ilkvuom7hm5qb5c.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAe1kiZeVsHVU-zPe8m-zxoNkd4UWCcrko"
+          "current_key": "AIzaSyCJkccQ7_ATLzSjes2QFUUjWbW4rx9_W5c"
         }
       ],
       "services": {
@@ -44,7 +68,55 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "271411522443-rai6g33st6mvqlljjkcgkkp02c0pgf5i.apps.googleusercontent.com",
+              "client_id": "983812905342-4nd1k6k0t23t9ts93ilkvuom7hm5qb5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983812905342:android:ccb6a74f59eed0bf",
+        "android_client_info": {
+          "package_name": "in.yefindia.yefadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983812905342-ngq1gvdni0a9h2a47ojld39es5532uof.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.yefindia.yefadmin",
+            "certificate_hash": "82429b61c5e33299324aa128059bfd4a3c5c7597"
+          }
+        },
+        {
+          "client_id": "983812905342-4nd1k6k0t23t9ts93ilkvuom7hm5qb5c.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "983812905342-4nd1k6k0t23t9ts93ilkvuom7hm5qb5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJkccQ7_ATLzSjes2QFUUjWbW4rx9_W5c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983812905342-4nd1k6k0t23t9ts93ilkvuom7hm5qb5c.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

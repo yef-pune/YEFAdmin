@@ -14,6 +14,7 @@ public class Utils {
     public static final String FIREBASE_USERS_CHILD_NODE="USER_DETAILS";
     public static final String FIREBASE_BLOOD_DONATION_REGISTERED_USERS="REGISTERED_USERS";
     public static final String FIREBASE_BLOOD_DONATION="BLOOD_DONATION";
+    public static final String FIREBASE_ADMINS="ADMINS";
 
     //Registeration Successfull
     public static final String REGISTERATION_SUCESSFUL="Registeration Successfull";

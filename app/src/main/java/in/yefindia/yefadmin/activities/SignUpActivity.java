@@ -145,7 +145,7 @@ public class SignUpActivity extends AppCompatActivity {
 
         AdminDetailsModel mUser = new AdminDetailsModel(fullName, contactNumber, state, city, email);
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference();
-        reference.child("ADMINS")
+        reference.child(Utils.FIREBASE_ADMINS)
                 .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                 .setValue(mUser);
         FirebaseAuth.getInstance().signOut();

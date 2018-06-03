@@ -19,8 +19,11 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import in.yefindia.yefadmin.R;
 
@@ -32,6 +35,9 @@ public class SignInActivity extends AppCompatActivity {
     private TextInputLayout editTextEmail,editTextPassword;
     private TextView textResendMail,textforgotPassword;
     private ProgressDialog progressDialog;
+
+    private FirebaseDatabase firebaseDatabase;
+    private DatabaseReference reference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -114,15 +120,34 @@ public class SignInActivity extends AppCompatActivity {
 
         mAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                FirebaseUser user = firebaseAuth.getCurrentUser();
+            public void onAuthStateChanged(@NonNull final FirebaseAuth firebaseAuth) {
+                final FirebaseUser user = firebaseAuth.getCurrentUser();
 
                 if (user != null)
                 {
                     if(user.isEmailVerified()){
-                        Log.d(TAG,"OnAuthStateChanged:signed_in:  "+user.getUid());
-                        startActivity(new Intent(SignInActivity.this,HomeActivity.class));
-                        finish();
+                       Log.d(TAG,"OnAuthStateChanged:signed_in:  "+user.getUid());
+                       firebaseDatabase=FirebaseDatabase.getInstance();
+                        reference=firebaseDatabase.getReference(Utils.FIREBASE_ADMINS).child(user.getUid());
+                        reference.addListenerForSingleValueEvent(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(DataSnapshot dataSnapshot) {
+                                if(dataSnapshot.exists()){
+                                    Toast.makeText(getApplicationContext(),"Ok",Toast.LENGTH_SHORT).show();
+                                    startActivity(new Intent(SignInActivity.this,HomeActivity.class));
+                                    finish();
+                                }else{
+                                    Toast.makeText(getApplicationContext(),"No record found",Toast.LENGTH_SHORT).show();
+                                    FirebaseAuth.getInstance().signOut();
+                                }
+
+                            }
+
+                            @Override
+                            public void onCancelled(DatabaseError databaseError) {
+
+                            }
+                        });
                     }else{
                         AlertDialog.Builder builder = new AlertDialog.Builder(SignInActivity.this);
                         builder.setCancelable(true)
